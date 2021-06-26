@@ -1,5 +1,5 @@
 import { program } from "commander";
-import { createArgvFile } from '../components-ejs/index.js'
+import { createArgvFile } from '../components/index.js'
 import { info, success } from '../utils/chalk.js'
 import { createInquirerPrompt } from '../utils/inquirer.js'
 import fs from 'fs'

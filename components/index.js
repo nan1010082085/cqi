@@ -11,7 +11,7 @@ import { toUpperCase } from '../utils/index.js'
 export function createArgvFile(config) {
   // 文件后缀 这里要优化成枚举
   let suffix = config.url.indexOf('tsx') !== -1 ? '.tsx' : '.vue'
-  const template = fs.readFileSync(path.join(process.cwd(), `/components-ejs/model/${config.url}.ejs`), 'utf8')
+  const template = fs.readFileSync(path.join(process.cwd(), `/components/model/${config.url}.ejs`), 'utf8')
   let name = config.name ? config.name : 'index'
   const ejsConfig = {
     name: toUpperCase(name)

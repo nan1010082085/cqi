@@ -15,9 +15,6 @@
   "license": "MIT",
   "files": [
     "bin",
-    "components-ejs",
-    "utils",
-    "cq-create",
     "package.json"
   ],
   "dependencies": {
