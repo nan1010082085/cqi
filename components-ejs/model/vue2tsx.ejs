@@ -1,0 +1,16 @@
+import { Component, Vue } from 'vue-property-decorator';
+import { CreateElement, VNode } from 'vue/types';
+
+@Component({
+  name: '<%= name %>'
+})
+export default class <%= name %> extends Vue {
+
+  created() {};
+  
+  mounted() {};
+
+  render(h: CreateElement): VNode {
+    return <div></div>
+  }
+}
