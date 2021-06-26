@@ -1,6 +1,6 @@
 {
   "name": "cqi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cqi is a daily tool",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,9 @@
     "test": "node ./bin/cq.js"
   },
   "keywords": [],
-  "author": "yangdongnan",
+  "author": {
+    "name": "Dongnan Yang"
+  },
   "license": "MIT",
   "files": [
     "bin",
