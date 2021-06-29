@@ -1,15 +1,11 @@
 import fs from 'fs'
+import path from 'path'
 
-// // 获取package.json
-// function packageJSon() {
-//   return JSON.parse(fs.readFileSync(`${process.cwd()}/package.json`, 'utf8'))
-// }
-
-// // 版本
-// export const version = packageJSon().version
+export const __dirname = process.argv[1].split('bin')[0]
 
 // 控制台参数
 export const argv = process.argv.slice(2)
+
 
 /**
  * file name 名称首字母大写
@@ -22,3 +18,11 @@ export function toUpperCase(name) {
   }
   return name.split('-').filter(f => f != '').map(n => n.slice(0, 1).toUpperCase() + n.slice(1)).join('')
 }
+
+// 版本号
+function versionString() {
+  const packageJson = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'package.json'), 'utf8'))
+  return packageJson.version
+}
+
+export const version = versionString()
