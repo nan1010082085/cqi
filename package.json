@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "cqi": "bin/cq.js"
+    "cqi": "./bin/cq.js"
   },
   "scripts": {
     "test": "node ./bin/cq.js",
