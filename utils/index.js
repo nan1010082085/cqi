@@ -1,12 +1,12 @@
 import fs from 'fs'
 
-// 获取package.json
-function packageJSon() {
-  return JSON.parse(fs.readFileSync(`${process.cwd()}/package.json`, 'utf8'))
-}
+// // 获取package.json
+// function packageJSon() {
+//   return JSON.parse(fs.readFileSync(`${process.cwd()}/package.json`, 'utf8'))
+// }
 
-// 版本
-export const version = packageJSon().version
+// // 版本
+// export const version = packageJSon().version
 
 // 控制台参数
 export const argv = process.argv.slice(2)
