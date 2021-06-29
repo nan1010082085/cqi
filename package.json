@@ -1,6 +1,6 @@
 {
   "name": "cqi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "cqi is a daily tool",
   "main": "index.js",
   "type": "module",
