@@ -22,7 +22,7 @@ function outputFile({ name, suffix, template }) {
 }
 
 program
-  .description('create a template of vue2')
+  .description('create a template')
   .option('-vue2, --vue2 <name>', 'create vue2 template <name>.vue')
   .option('-vue2tsx, --vue2tsx <name>', 'create vue2 <name>.tsx')
   .action(async (params) => {
