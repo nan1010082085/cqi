@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "node ./bin/cqi.js",
+    "test:cm": "bash ./shell/commit.sh",
     "patch": "npm version patch"
   },
   "keywords": [],
