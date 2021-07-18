@@ -3,6 +3,7 @@ branch="$(git symbolic-ref --short -q HEAD)"
 
 # 定义一个函数
 function gitPush() {
+  echo -e "\033[34mrunning commit...... \033[0m"
   #判断 函数存在参数 commit message 允许提交
   if [[ -n $1  ]] 
   then 

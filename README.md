@@ -2,7 +2,7 @@
 
 > create 
 
-#### com runing
+#### cmd running
 * cqi create ``[option]`` ``<name>``
 ```
 cqi create
