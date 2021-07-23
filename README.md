@@ -29,5 +29,6 @@ cqi create
 cqi shell
   option
     -cm: commit // Commit to the current branch
+    -am: commit --amend // --amend --no-edit
   message: your commit message - Only one line of input is supported!!
 ```

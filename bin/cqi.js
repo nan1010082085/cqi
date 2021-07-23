@@ -8,8 +8,8 @@ program.version(version)
 
 program.usage('<command> [options]')
   .description('develop a fast tool')
-  .command('create [options] <name>', 'Create file template.')
-  .command('folder [options] <name>', 'Create module for [vue]')
-  .command('shell [options] <name>', 'run bash shell')
+  .command('create [options] <message>', 'Create file template.')
+  .command('folder [options] <message>', 'Create module for [vue]')
+  .command('shell [options] <message>', 'run bash shell')
 
 program.parse(process.argv)
