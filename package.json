@@ -10,7 +10,8 @@
   "scripts": {
     "test": "node ./bin/cqi.js",
     "test:cm": "bash ./shell/commit.sh",
-    "patch": "npm version patch"
+    "patch": "npm version patch",
+    "commit": "git-cz"
   },
   "keywords": [],
   "author": {
@@ -28,6 +29,7 @@
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
     "ejs": "^3.1.6",
+    "git-cz": "^4.7.6",
     "inquirer": "^8.1.1",
     "lodash": "^4.17.21",
     "prettier": "^2.3.1"
