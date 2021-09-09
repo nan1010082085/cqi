@@ -10,9 +10,12 @@
   "scripts": {
     "test": "node ./bin/cqi.js",
     "test:cm": "bash ./shell/commit.sh",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "release": "standard-version"
   },
-  "keywords": [],
+  "keywords": [
+    "cqi"
+  ],
   "author": {
     "name": "Dongnan Yang"
   },
