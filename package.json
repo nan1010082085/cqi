@@ -1,6 +1,6 @@
 {
   "name": "cqi",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "cqi is a daily tool",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,6 @@
   "scripts": {
     "test": "node ./bin/cqi.js",
     "test:cm": "bash ./shell/commit.sh",
-    "patch": "npm version patch",
     "release": "standard-version"
   },
   "keywords": [],
@@ -46,11 +45,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "standard-version": {
-    "skip": {
-      "changelog": true
     }
   }
 }
